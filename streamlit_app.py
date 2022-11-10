@@ -50,7 +50,7 @@ try:
 # write your own comment - what does this do? Display the table on the page.
     streamlit.dataframe(fruityvice_normalized)
   
-expect URLError as e:
+excect URLError as e:
   streamlit.error()
 
 #not run past here for troubleshooting
